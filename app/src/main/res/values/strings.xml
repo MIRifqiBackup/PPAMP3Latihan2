@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PPAMP3-Latihan2</string>
+    <string name="logologin">logoLogin</string>
+    <string name="email">Email</string>
+    <string name="titleLogin">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">LOGIN</string>
+</resources>

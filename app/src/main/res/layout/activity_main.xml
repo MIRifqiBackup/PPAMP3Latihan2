@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleLogin"
+        android:textAlignment="center"
+        android:textColor="#0035F4"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logologin"
+        app:srcCompat="@drawable/digital_key_icon_glitch_effect_login_symbol_wed_vector_35412206_removebg_preview" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:autofillHints=""
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="60dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:text="@string/remember_me" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+</LinearLayout>
